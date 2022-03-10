@@ -13,6 +13,8 @@ void PrismCylinder() {
 	float height;
 	float radius;
 	const float pie = 3.14;
+	
+	std::string input;
 
 	if (input == "Prism/Cylinder") {
 		system("cls");
@@ -61,6 +63,8 @@ void cone() {
 	float height;
 	float radius;
 	const float pie = 3.14;
+	
+	std::string input;
 
 	if (input == "Cone") {
 		system("cls");
@@ -98,8 +102,6 @@ void cone() {
 }
 
 	int main() {
-
-		std::string input;
 
 		std::cout << "Volume (Type Prism/Cylinder, *Pyramid, Cone, *Sphere)\n";
 		std::cin >> input;
